@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  margin: 5px;
+  text-align: center;
+}
+
+
+main {
+  margin-left: 10px;
+}
+
+main button {
+  padding: 5px;
+  font-size: 15px;
+}
+
+.fag-input {
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}

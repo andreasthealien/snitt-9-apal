@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <!--        <link rel="icon" href="">      -->
+  <title>Apalløkka</title>
+</head>
+
+<body>
+  <header>
+    <h1>Sjekk snittet ditt, 9.trinn apal</h1>
+    <p>(Hvis ingenting blir skrevet regnes det som 0, samme hvis bokstaver blir skrevet.)</p>
+  </header>
+
+  <main>
+    <p>Norsk skriftlig:</p>
+    <input type="text" class="fag-input" id="norsk-s"> <br>
+
+    <p>Norsk muntlig:</p>
+    <input type="text" class="fag-input" id="norsk-m"> <br>
+
+    <p>Matematikk:</p>
+    <input type="text" class="fag-input" id="matematikk"> <br>
+
+    <p>Engelsk:</p>
+    <input type="text" class="fag-input" id="engelsk"> <br>
+
+    <p>KRLE:</p>
+    <input type="text" class="fag-input" id="krle"> <br>
+
+    <p>Samfunnsfag:</p>
+    <input type="text" class="fag-input" id="samfunnsfag"> <br>
+
+    <p>Naturfag:</p>
+    <input type="text" class="fag-input" id="naturfag"> <br>
+
+    <p>Kroppsøving:</p>
+    <input type="text" class="fag-input" id="kroppsoving"> <br>
+
+    <p>Kunst & håndverk:</p>
+    <input type="text" class="fag-input" id="kunst-handverk"> <br>
+
+    <p>Mat & helse</p>
+    <input type="text" class="fag-input" id="mat-helse"> <br>
+
+    <p>Musikk</p>
+    <input type="text" class="fag-input" id="musikk"> <br>
+
+    <p>Valgspråk (f.eks. spansk):</p>
+    <input type="text" class="fag-input" id="valg-sprak"> <br>
+
+    <p>Valgfag (f.eks. medier og kommunikasjon):</p>
+    <input type="text" class="fag-input" id="valg-fag"> <br>
+
+    <h1 id="snittSentence" class="hidden">Snittet ditt er: <span id="snittShow"></span></h1>
+
+    <button id="sjekkSnitt">Få snitt</button>
+  </main>
+  <script src="./index.js"></script>
+</body>
+<!--
+  1. Engelsk <--
+  2. KRLE <--
+  3. Kroppsøving <--
+  4. Kunst & håndverk <--
+  5. Mat & helse <--
+  6. Matematikk <--
+  7. Musikk
+  8. Naturfag <--
+  9. Norsk skriftlig <--
+  10. Norsk muntlig <--
+  11. Valgfag
+  12. Samfunnsfag <--
+  13. Valgspråk
+
+  totalt: 13
+  -->
+
+</html>
