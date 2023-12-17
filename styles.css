@@ -12,6 +12,13 @@ header {
   text-align: center;
 }
 
+header h1 {
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.5rem;
+}
 
 main {
   margin-left: 10px;
@@ -22,6 +29,16 @@ main button {
   font-size: 15px;
 }
 
+main p {
+  font-size: 1.3rem;
+}
+
+main input {
+  margin-top: 2px;
+  font-size: 1.15rem;
+  padding: 2px 5px;
+}
+
 .fag-input {
   margin-bottom: 20px;
 }
@@ -30,6 +47,10 @@ main button {
   font-family: sans-serif;
   font-weight: 900;
   font-size: 3rem;
+}
+
+#settKarakterer-div {
+  margin-top: 40px;
 }
 
 .hidden {

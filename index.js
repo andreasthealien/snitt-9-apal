@@ -1,6 +1,8 @@
 const sjekkSnitt = document.getElementById('sjekkSnitt');
 const snittSentence = document.getElementById('snittSentence');
 const snittShow = document.getElementById('snittShow');
+const settAlleKaraktererInput = document.getElementById('settAlleKarakterer');
+const settAlleKaraktererKnapp = document.getElementById('settAlleKarakterer-knapp');
 const hidden = "hidden";
 
 function getGrades() {
@@ -45,4 +47,22 @@ sjekkSnitt.addEventListener("click", ()=>{
   snittShow.innerHTML = snitt;
 
   snittSentence.classList.remove("hidden");
-})
+});
+
+settAlleKaraktererKnapp.addEventListener("click", () => {
+  const valueOfGrade = settAlleKaraktererInput.value;
+  
+  document.getElementById('norsk-s').value = valueOfGrade;
+  document.getElementById('norsk-m').value = valueOfGrade;
+  document.getElementById('matematikk').value = valueOfGrade;
+  document.getElementById('engelsk').value = valueOfGrade;
+  document.getElementById('krle').value = valueOfGrade;
+  document.getElementById('samfunnsfag').value = valueOfGrade;
+  document.getElementById('naturfag').value = valueOfGrade;
+  document.getElementById('kroppsoving').value = valueOfGrade;
+  document.getElementById('kunst-handverk').value = valueOfGrade;
+  document.getElementById('mat-helse').value = valueOfGrade;
+  document.getElementById('musikk').value = valueOfGrade;
+  document.getElementById('valg-sprak').value = valueOfGrade;
+  document.getElementById('valg-fag').value = valueOfGrade;
+});
